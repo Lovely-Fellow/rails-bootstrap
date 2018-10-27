@@ -8,11 +8,11 @@
         </button>
       </li>
     </ul>
-    <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
-      <%= link_to "Rails bootstrap", root_path, class: 'navbar-brand' %>
-      <ul class="nav navbar-nav">
-        <%= render 'layouts/navigation_links' %>
-      </ul>
+    <div class="collapse-show navbar-toggleable-xs" id="exCollapsingNavbar2">
+      <%= link_to "Rails bootstrap", root_path %>
+      <%= link_to 'Add News', new_article_path %>
+      <%= link_to 'All News', controller: 'articles' %>
+
     </div>
   </nav>
 </div>
