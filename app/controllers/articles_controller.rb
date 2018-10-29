@@ -1,5 +1,9 @@
 class ArticlesController < ApplicationController
      def index
+        
+        @articles = Article.order("RANDOM()").limit(5)
+     end
+     def random
         @articles = Article.all
      end
      
@@ -38,6 +42,6 @@ class ArticlesController < ApplicationController
      end  
      private
         def article_params
-          params.require(:article).permit(:title, :text)
+          params.require(:article).permit(:title, :text, :showwhat)
         end
 end
