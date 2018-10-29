@@ -8201,3 +8201,97 @@ Processing by ArticlesController#show as HTML
 Completed 200 OK in 339ms (Views: 100.7ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/articles/8" for 192.168.23.1 at 2018-10-29 01:32:07 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.3ms) [cache miss]
+Completed 200 OK in 541ms (Views: 497.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 01:32:09 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (558.2ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (567.8ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (2.3ms) [cache miss]
+Completed 200 OK in 661ms (Views: 659.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 192.168.23.1 at 2018-10-29 01:32:12 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V2sANeWErgE6+1JDuAWZa7gxkCiDFvpBjCNjuK6nfEzaPamwfNEW/MLxW33H+0NAmGPbQXNQ0kDWZJ+I93xxBA==", "article"=>{"title"=>"546346", "text"=>"34563456"}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (4.6ms)[0m  [1m[32mINSERT INTO "articles" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "546346"], ["text", "34563456"], ["created_at", "2018-10-29 08:32:12.628262"], ["updated_at", "2018-10-29 08:32:12.628262"]]
+  [1m[35m (7.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://192.168.23.135:3000/articles/20
+Completed 302 Found in 23ms (ActiveRecord: 12.8ms)
+
+
+Started GET "/articles/20" for 192.168.23.1 at 2018-10-29 01:32:12 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_messages.html.erb (5.0ms) [cache miss]
+Completed 200 OK in 126ms (Views: 121.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 01:32:13 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navigation.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 97ms (Views: 84.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 01:34:06 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (109.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (590.0ms)
+Completed 500 Internal Server Error in 694ms (ActiveRecord: 109.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `create_at' for #<Article:0x007fb4091dd318>
+Did you mean?  created_at
+               created_at?
+               created_at=):
+    12:     <tr>
+    13:       <td><%= article.title %></td>
+    14:       <td><%= article.text %></td>
+    15:       <td><%= article.create_at %></td>
+    16:       <td><%= link_to 'Show', article_path(article) %></td>
+    17:       <td><%= link_to 'Edit', edit_article_path(article) %></td>
+    18:       <td><%= link_to 'Destroy', article_path(article),
+  
+app/views/articles/index.html.erb:15:in `block in _app_views_articles_index_html_erb___3045267856374946338_70205612028880'
+app/views/articles/index.html.erb:11:in `_app_views_articles_index_html_erb___3045267856374946338_70205612028880'
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 01:35:29 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (16.0ms)
+  Rendered layouts/_navigation.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 783ms (Views: 750.5ms | ActiveRecord: 0.6ms)
+
+
