@@ -8459,3 +8459,2540 @@ Processing by ArticlesController#index as HTML
 Completed 200 OK in 84ms (Views: 82.3ms | ActiveRecord: 0.4ms)
 
 
+Started GET "/" for 192.168.23.1 at 2018-10-29 12:38:28 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (11.6ms)
+  Rendered layouts/_navigation.html.erb (1.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 892ms (Views: 862.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.23.1 at 2018-10-29 12:46:15 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 213ms (Views: 209.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.23.1 at 2018-10-29 12:46:42 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 113ms (Views: 111.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.23.1 at 2018-10-29 12:47:12 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 98ms (Views: 96.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.23.1 at 2018-10-29 12:47:42 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_navigation.html.erb (1.9ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 119ms (Views: 117.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.23.1 at 2018-10-29 12:49:24 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 124ms (Views: 122.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.23.1 at 2018-10-29 12:49:49 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 99ms (Views: 98.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 12:49:50 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (570.2ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (574.2ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 672ms (Views: 648.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 12:49:52 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (10.0ms)
+  Rendered layouts/_navigation.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 77ms (Views: 73.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 12:50:20 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_navigation.html.erb (2.9ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.9ms) [cache miss]
+Completed 200 OK in 86ms (Views: 83.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 192.168.23.1 at 2018-10-29 12:50:27 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (4.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 72ms (Views: 70.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 12:50:32 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (3.4ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (12.5ms)
+  Rendered layouts/_navigation.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 96ms (Views: 95.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 192.168.23.1 at 2018-10-29 12:52:24 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Iy3Tm0URvINofU/5DBkILlgXnxQprxGtpUlNYYheoCACG4Sgt9m1tHQhwMkaRH/0x/NVxlzWxutieN1/ClXMjQ==", "article"=>{"title"=>"qwerqw", "text"=>"werwerwer"}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (11.0ms)[0m  [1m[32mINSERT INTO "articles" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "qwerqw"], ["text", "werwerwer"], ["created_at", "2018-10-29 19:52:24.736441"], ["updated_at", "2018-10-29 19:52:24.736441"]]
+  [1m[35m (3.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://192.168.23.136:3000/articles/22
+Completed 302 Found in 27ms (ActiveRecord: 14.9ms)
+
+
+Started GET "/articles/22" for 192.168.23.1 at 2018-10-29 12:52:24 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"22"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation.html.erb (6.1ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 117ms (Views: 103.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 12:53:41 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.1ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_navigation.html.erb (2.8ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 100ms (Views: 98.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 12:53:47 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (13.5ms)
+  Rendered layouts/_navigation.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 104ms (Views: 102.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 12:53:49 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_navigation.html.erb (4.9ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 110ms (Views: 106.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 12:54:10 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_navigation.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 108ms (Views: 106.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 12:54:14 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 96ms (Views: 94.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 12:54:14 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_navigation.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_messages.html.erb (2.8ms) [cache miss]
+Completed 200 OK in 78ms (Views: 76.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 12:54:14 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 82ms (Views: 79.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 12:54:15 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 75ms (Views: 73.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 12:54:16 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (4.2ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (8.3ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 92ms (Views: 90.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 192.168.23.1 at 2018-10-29 12:54:31 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YBtH+Gjfx5KS8jvGeZbf6cxiUHd9NBY9YU+K5KMo7SdBLRDDmhfOpY6utPZvy6gzU4aapQhNwXumfhr6ISOBig==", "article"=>{"title"=>"qwerqw", "text"=>"asdfasdf"}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (5.7ms)[0m  [1m[32mINSERT INTO "articles" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "qwerqw"], ["text", "asdfasdf"], ["created_at", "2018-10-29 19:54:31.744161"], ["updated_at", "2018-10-29 19:54:31.744161"]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://192.168.23.136:3000/articles/23
+Completed 302 Found in 14ms (ActiveRecord: 7.9ms)
+
+
+Started GET "/articles/23" for 192.168.23.1 at 2018-10-29 12:54:31 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"23"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 23], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 83ms (Views: 80.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 12:54:34 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 97ms (Views: 95.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 12:54:44 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (6.9ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 102ms (Views: 100.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 192.168.23.1 at 2018-10-29 12:54:47 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"C9m0WVNu/+2x7xlZ4s5Lm78NZLv6P8ILMU8mB2jkhB4q7+Nioab22q2zlmn0kzxBIOmuaY9GFU32frYZ6u/osw==", "article"=>{"title"=>"asdf", "text"=>"asdfasfd"}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.4ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (8.4ms)
+  Rendered layouts/_navigation.html.erb (5.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 77ms (Views: 72.0ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/articles" for 192.168.23.1 at 2018-10-29 12:54:50 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cU9lSxfkAswwsu+lxslnJBwoEzxvwvqKS6ANvz9nzjP5f0inz/L9zIgEBmNJBs6RmEs9KpLD8wjVwB87+vO3xw==", "article"=>{"title"=>"asdfsadfasfd", "text"=>"asdfasfd"}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (3.0ms)[0m  [1m[32mINSERT INTO "articles" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "asdfsadfasfd"], ["text", "asdfasfd"], ["created_at", "2018-10-29 19:54:50.418961"], ["updated_at", "2018-10-29 19:54:50.418961"]]
+  [1m[35m (7.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://192.168.23.136:3000/articles/24
+Completed 302 Found in 19ms (ActiveRecord: 10.7ms)
+
+
+Started GET "/articles/24" for 192.168.23.1 at 2018-10-29 12:54:50 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"24"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 24], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 71ms (Views: 69.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 12:54:52 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 90ms (Views: 87.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 12:55:40 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (15.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 123ms (Views: 120.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 12:55:41 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+Redirected to http://192.168.23.136:3000/articles
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 12:55:41 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (2.4ms) [cache miss]
+Completed 200 OK in 97ms (Views: 95.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 12:55:42 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+Redirected to http://192.168.23.136:3000/articles
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 12:55:42 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (7.2ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 78ms (Views: 76.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 12:55:43 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+Redirected to http://192.168.23.136:3000/articles
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 12:55:43 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (6.4ms)
+  Rendered layouts/_navigation.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 85ms (Views: 83.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 12:55:44 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+Redirected to http://192.168.23.136:3000/articles
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 12:55:44 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 72ms (Views: 70.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 12:56:19 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (21.1ms)
+  Rendered layouts/_navigation.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 112ms (Views: 104.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 12:56:20 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.5ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (11.3ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (4.5ms) [cache miss]
+Completed 200 OK in 111ms (Views: 109.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 192.168.23.1 at 2018-10-29 12:56:22 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EDgyrcvThQL0zEe3Hh4hlMIIvynXYk/ddrD9Qv7t2ygxDmWWORuMNeiQyIcIQ1ZOXex1+6IbmJuxgW1cfOa3hQ==", "article"=>{"title"=>"sdfa", "text"=>"asdfas"}, "commit"=>"Create Article"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (1.5ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (6.4ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.3ms) [cache miss]
+Redirected to 
+Completed 500 Internal Server Error in 92ms (Views: 82.9ms | ActiveRecord: 0.3ms)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+app/controllers/articles_controller.rb:29:in `create'
+Started POST "/articles" for 192.168.23.1 at 2018-10-29 12:56:56 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EDgyrcvThQL0zEe3Hh4hlMIIvynXYk/ddrD9Qv7t2ygxDmWWORuMNeiQyIcIQ1ZOXex1+6IbmJuxgW1cfOa3hQ==", "article"=>{"title"=>"sdfa", "text"=>"asdfas"}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (3.0ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (9.9ms)
+  Rendered layouts/_navigation.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Redirected to 
+Completed 500 Internal Server Error in 103ms (Views: 80.5ms | ActiveRecord: 1.0ms)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+app/controllers/articles_controller.rb:29:in `create'
+Started GET "/" for 192.168.23.1 at 2018-10-29 12:57:00 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation.html.erb (5.0ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 83ms (Views: 81.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 12:57:01 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (1.6ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 99ms (Views: 98.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 192.168.23.1 at 2018-10-29 12:57:05 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"E/tOHJ1egM3m+En2rT4OvmjTONe9HKM+4gdU2BwpTY4yzRknb5aJ+vqkxsa7Y3lk9zfyBchldHglNsTGniIhIw==", "article"=>{"title"=>"qwerqw", "text"=>"asasdf"}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "qwerqw"], ["text", "asasdf"], ["created_at", "2018-10-29 19:57:05.548445"], ["updated_at", "2018-10-29 19:57:05.548445"]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://192.168.23.136:3000/articles/25
+Redirected to 
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 4.6ms)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+app/controllers/articles_controller.rb:29:in `create'
+Started POST "/articles" for 192.168.23.1 at 2018-10-29 12:57:29 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"E/tOHJ1egM3m+En2rT4OvmjTONe9HKM+4gdU2BwpTY4yzRknb5aJ+vqkxsa7Y3lk9zfyBchldHglNsTGniIhIw==", "article"=>{"title"=>"qwerqw", "text"=>"asasdf"}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.6ms)[0m  [1m[32mINSERT INTO "articles" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "qwerqw"], ["text", "asasdf"], ["created_at", "2018-10-29 19:57:29.332362"], ["updated_at", "2018-10-29 19:57:29.332362"]]
+  [1m[35m (4.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://192.168.23.136:3000/articles
+Completed 302 Found in 33ms (ActiveRecord: 8.0ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 12:57:29 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_navigation.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 87ms (Views: 85.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 12:57:31 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (7.9ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (9.5ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 117ms (Views: 115.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 192.168.23.1 at 2018-10-29 12:57:34 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hX5b70Ve8TRjAGZ6fSiRsLxJKfqtL7Q0ITDBvsA/Zs6kSAzUt5b4A39c6UprdeZqI63jKNhWY3LmAVGgQjQKYw==", "article"=>{"title"=>"asf", "text"=>"asdfasdf"}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (1.5ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 101ms (Views: 95.2ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/articles" for 192.168.23.1 at 2018-10-29 12:57:38 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"laypOusW1xzF8bqyTqQx9xp7G9XjyUnfZFmcCHKz3x0dnITWMwAoHH1HU3TBa5hCnhg1wx7IQF36OY6Mtyem6Q==", "article"=>{"title"=>"asfwerqwe", "text"=>"asdfasdfrqwer"}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (3.9ms)[0m  [1m[32mINSERT INTO "articles" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "asfwerqwe"], ["text", "asdfasdfrqwer"], ["created_at", "2018-10-29 19:57:38.705063"], ["updated_at", "2018-10-29 19:57:38.705063"]]
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://192.168.23.136:3000/articles
+Completed 302 Found in 13ms (ActiveRecord: 7.5ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 12:57:38 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (6.4ms)
+  Rendered layouts/_navigation.html.erb (5.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 91ms (Views: 88.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/27/edit" for 192.168.23.1 at 2018-10-29 12:57:42 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.4ms) [cache miss]
+  Rendered articles/edit.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 76ms (Views: 71.8ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/articles/27" for 192.168.23.1 at 2018-10-29 12:57:44 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BIMA4+84b1PAA3nVIXN2IexLI+AIGjc262blU8loboDztJNcT6jXqPwabbcrwJP4raZ0BVsw4oSU5Q0gc3agcA==", "article"=>{"title"=>"asfwerqweqwerqwer", "text"=>"asdfasdfrqwer"}, "commit"=>"Update Article", "id"=>"27"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[33mUPDATE "articles" SET "title" = ?, "updated_at" = ? WHERE "articles"."id" = ?[0m  [["title", "asfwerqweqwerqwer"], ["updated_at", "2018-10-29 19:57:44.060177"], ["id", 27]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://192.168.23.136:3000/articles
+Completed 302 Found in 14ms (ActiveRecord: 4.6ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 12:57:44 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (6.4ms)
+  Rendered layouts/_navigation.html.erb (4.8ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 77ms (Views: 75.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:05:34 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/work/rubyonrails/rails-bootstrap/app/views/articles/index.html.erb:17: syntax error, unexpected keyword_class, expecting ')'
+, article_path(article)  class="btn btn-info" );@output_buff
+                              ^):
+  
+app/views/articles/index.html.erb:17: syntax error, unexpected keyword_class, expecting ')'
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:06:01 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (10.5ms)
+  Rendered layouts/_navigation.html.erb (1.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 125ms (Views: 122.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:19:50 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_navigation.html.erb (5.0ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 126ms (Views: 123.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:20:31 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (13.2ms)
+  Rendered layouts/_navigation.html.erb (1.2ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 127ms (Views: 125.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:24:42 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_navigation.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 182ms (Views: 178.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:25:30 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_navigation.html.erb (3.2ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 125ms (Views: 122.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:25:49 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_navigation.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 117ms (Views: 115.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:27:00 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (9.4ms)
+  Rendered layouts/_navigation.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 115ms (Views: 111.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:27:05 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (8.2ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 82ms (Views: 80.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:27:10 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (6.6ms)
+  Rendered layouts/_navigation.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 132ms (Views: 128.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:27:11 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_navigation.html.erb (4.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 119ms (Views: 117.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:27:12 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (9.2ms)
+  Rendered layouts/_navigation.html.erb (5.9ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 113ms (Views: 111.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:27:23 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (3.0ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (9.2ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 96ms (Views: 91.9ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:27:24 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navigation.html.erb (4.9ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 77ms (Views: 76.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:27:24 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (7.6ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 85ms (Views: 83.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:27:25 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 88ms (Views: 84.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:27:25 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_navigation.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 93ms (Views: 89.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:27:26 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 70ms (Views: 68.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:28:39 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (8.5ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 104ms (Views: 102.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:29:04 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (7.8ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 104ms (Views: 101.5ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/articles/18" for 192.168.23.1 at 2018-10-29 13:29:58 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"MFzydGh5h+f2dlQ4rPX2x/4ljHrCMamHygg6DR8L7Yy4bN+YsG94507Avf4jOl9yekaibD8woAVUaCiJ2p+UeA==", "id"=>"18"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (4.2ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 18]]
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://192.168.23.136:3000/articles
+Completed 302 Found in 12ms (ActiveRecord: 8.0ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:29:58 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_navigation.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 108ms (Views: 107.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 13:34:23 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (5.1ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (10.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 147ms (Views: 145.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:34:25 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_navigation.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 112ms (Views: 110.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 13:34:37 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (6.6ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (8.6ms)
+  Rendered layouts/_navigation.html.erb (4.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 99ms (Views: 97.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:34:41 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_navigation.html.erb (4.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 99ms (Views: 95.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 13:34:51 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (1.9ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (7.5ms)
+  Rendered layouts/_navigation.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 100ms (Views: 98.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:34:52 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (7.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 103ms (Views: 101.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles/27/edit" for 192.168.23.1 at 2018-10-29 13:35:00 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (6.8ms) [cache miss]
+  Rendered articles/edit.html.erb within layouts/application (7.9ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 93ms (Views: 90.4ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/articles/27" for 192.168.23.1 at 2018-10-29 13:35:07 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CnDwaWTWXgXVJZ9qrQZvG/NLAP+OkuXuSTgGfwT9O9P9R2PWxEbm/uk8iwintYrCsqZXGt24MFw2u+4MvuP1Iw==", "article"=>{"title"=>"asfwerqweqwerqwer", "text"=>"asdfasdfrqwerhgdfdfgdgfdfgdgfdgfdfdfhdfhdhfdfdfgdgfdhfdhgfdhg"}, "commit"=>"Update Article", "id"=>"27"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (3.8ms)[0m  [1m[33mUPDATE "articles" SET "text" = ?, "updated_at" = ? WHERE "articles"."id" = ?[0m  [["text", "asdfasdfrqwerhgdfdfgdgfdfgdgfdgfdfdfhdfhdhfdfdfgdgfdhfdhgfdhg"], ["updated_at", "2018-10-29 20:35:07.123846"], ["id", 27]]
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://192.168.23.136:3000/articles
+Completed 302 Found in 16ms (ActiveRecord: 6.9ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:35:07 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 93ms (Views: 91.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/27/edit" for 192.168.23.1 at 2018-10-29 13:35:12 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.3ms) [cache miss]
+  Rendered articles/edit.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 105ms (Views: 103.0ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/articles/27" for 192.168.23.1 at 2018-10-29 13:35:18 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/gexst+Ccmz8PD0i1vm9IAI5PX+pntXgyPooep2QOygJMCINfxLKl8AlKUDcSlj5Q9Rqmvq0AFK3ecAJJ4712A==", "article"=>{"title"=>"asfwerqweqwerqwer", "text"=>"asdfasdfrqwerhgdfdfgdgfdfgdgfdgfdfhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhdfhdfhdhfdfdfgdgfdhfdhgfdhg"}, "commit"=>"Update Article", "id"=>"27"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[33mUPDATE "articles" SET "text" = ?, "updated_at" = ? WHERE "articles"."id" = ?[0m  [["text", "asdfasdfrqwerhgdfdfgdgfdfgdgfdgfdfhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhdfhdfhdhfdfdfgdgfdhfdhgfdhg"], ["updated_at", "2018-10-29 20:35:18.290811"], ["id", 27]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://192.168.23.136:3000/articles
+Completed 302 Found in 13ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:35:18 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_navigation.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 83ms (Views: 81.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:35:22 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (4.8ms)
+  Rendered layouts/_navigation.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 107ms (Views: 105.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:35:37 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 115ms (Views: 113.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 13:36:20 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.2ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_navigation.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 96ms (Views: 94.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 13:41:27 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (5.6ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_navigation.html.erb (2.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 110ms (Views: 103.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 13:42:17 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (3.5ms)
+  Rendered articles/new.html.erb within layouts/application (4.9ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/work/rubyonrails/rails-bootstrap/app/views/articles/_form.html.erb:28: syntax error, unexpected ':'
+_buffer.append=( form.submit : 'asdf' );@output_buffer.safe_
+                              ^):
+  
+app/views/articles/_form.html.erb:28: syntax error, unexpected ':'
+app/views/articles/new.html.erb:3:in `_app_views_articles_new_html_erb___873138488566782730_69902177576020'
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 13:42:37 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (4.7ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_navigation.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 102ms (Views: 100.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:46:25 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (23.4ms)
+  Rendered layouts/_navigation.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 467ms (Views: 448.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/articles/8/edit" for 192.168.23.1 at 2018-10-29 13:46:27 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (589.1ms) [cache miss]
+  Rendered articles/edit.html.erb within layouts/application (594.9ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.2ms) [cache miss]
+Completed 200 OK in 724ms (Views: 709.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 13:46:36 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (10.9ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (12.5ms)
+  Rendered layouts/_navigation.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_messages.html.erb (3.7ms) [cache miss]
+Completed 200 OK in 155ms (Views: 152.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 13:46:54 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (0.6ms)
+  Rendered articles/new.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/work/rubyonrails/rails-bootstrap/app/views/articles/_form.html.erb:28: syntax error, unexpected ':'
+t_buffer.append=( form.submit: 'News' );@output_buffer.safe_
+                              ^):
+  
+app/views/articles/_form.html.erb:28: syntax error, unexpected ':'
+app/views/articles/new.html.erb:3:in `_app_views_articles_new_html_erb__265475762093815200_70305067345720'
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 13:47:01 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (5.9ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (7.2ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 105ms (Views: 101.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 192.168.23.1 at 2018-10-29 13:47:06 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WW+GepCSvyNqPuCNmpZOrsIdQy20UVczF24V3UpM1uzRX6uWSIRAI9KICUsVWecbRn5tO0lQXrGJDgdZj9ivGA==", "article"=>{"title"=>"qwerqw", "text"=>"qwerqwer"}, "commit"=>"News"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "qwerqw"], ["text", "qwerqwer"], ["created_at", "2018-10-29 20:47:06.348242"], ["updated_at", "2018-10-29 20:47:06.348242"]]
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://192.168.23.136:3000/articles
+Completed 302 Found in 15ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:47:06 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 89ms (Views: 87.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/21/edit" for 192.168.23.1 at 2018-10-29 13:47:09 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (1.4ms) [cache miss]
+  Rendered articles/edit.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_navigation.html.erb (5.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 83ms (Views: 78.8ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/articles/21" for 192.168.23.1 at 2018-10-29 13:47:12 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sjmW2mSeEawZPLvfAgSeRBy1LGN8Ko2sHsCOgNaoPfuTiavFjLe1VBTu3M6rpmiSLfRoCh3Yq/1uHSSeOlsA2Q==", "article"=>{"title"=>"sdfsdfa", "text"=>"adsfawqer"}, "commit"=>"News", "id"=>"21"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "articles" SET "text" = ?, "updated_at" = ? WHERE "articles"."id" = ?[0m  [["text", "adsfawqer"], ["updated_at", "2018-10-29 20:47:12.141834"], ["id", 21]]
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://192.168.23.136:3000/articles
+Completed 302 Found in 13ms (ActiveRecord: 3.7ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:47:12 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (6.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 84ms (Views: 83.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/8/edit" for 192.168.23.1 at 2018-10-29 13:47:15 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (1.6ms) [cache miss]
+  Rendered articles/edit.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_navigation.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 103ms (Views: 100.0ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/articles/8" for 192.168.23.1 at 2018-10-29 13:47:18 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N8IBkndYvT23q0wJTxfvz50XSn7hTDYNuBJBwt4eUvrs2Lbe5v0v0yL92sb6oHwBRZGP+U/9/Cl/KTXGNDY4FQ==", "article"=>{"title"=>"qwerqwwqer", "text"=>"3werq"}, "commit"=>"News", "id"=>"8"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[33mUPDATE "articles" SET "title" = ?, "text" = ?, "updated_at" = ? WHERE "articles"."id" = ?[0m  [["title", "qwerqwwqer"], ["text", "3werq"], ["updated_at", "2018-10-29 20:47:18.408145"], ["id", 8]]
+  [1m[35m (5.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://192.168.23.136:3000/articles
+Completed 302 Found in 17ms (ActiveRecord: 6.5ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:47:18 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 71ms (Views: 69.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:50:32 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/work/rubyonrails/rails-bootstrap/app/views/articles/index.html.erb:40: syntax error, unexpected keyword_class, expecting ')'
+t_article_path(article)  class="btn btn-success" );@output_b
+                              ^):
+  
+app/views/articles/index.html.erb:40: syntax error, unexpected keyword_class, expecting ')'
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:50:51 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_navigation.html.erb (3.8ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 107ms (Views: 104.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:52:19 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (6.2ms)
+  Rendered layouts/_navigation.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 104ms (Views: 101.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:52:20 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (13.1ms)
+  Rendered layouts/_navigation.html.erb (5.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 103ms (Views: 100.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:52:54 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (10.3ms)
+  Rendered layouts/_navigation.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 120ms (Views: 118.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:52:58 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_messages.html.erb (2.4ms) [cache miss]
+Completed 200 OK in 108ms (Views: 103.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:53:00 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (4.8ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 92ms (Views: 90.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:53:01 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (7.5ms)
+  Rendered layouts/_navigation.html.erb (1.2ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 108ms (Views: 104.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:53:02 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (4.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (7.1ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 89ms (Views: 82.8ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:53:03 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (13.1ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 134ms (Views: 132.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:53:46 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (4.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (7.1ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 91ms (Views: 85.1ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:53:48 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (6.5ms)
+  Rendered layouts/_navigation.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 86ms (Views: 84.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 13:53:49 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_navigation.html.erb (5.1ms) [cache miss]
+  Rendered layouts/_messages.html.erb (5.4ms) [cache miss]
+Completed 200 OK in 111ms (Views: 109.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:00:25 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (10.5ms)
+  Rendered layouts/_navigation.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 148ms (Views: 143.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:00:25 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (4.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_navigation.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 107ms (Views: 100.2ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:00:26 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (10.4ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 106ms (Views: 104.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:00:28 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_navigation.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 106ms (Views: 105.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:03:24 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (2.4ms) [cache miss]
+Completed 200 OK in 134ms (Views: 132.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:03:26 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (7.9ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 112ms (Views: 110.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:03:27 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (4.6ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_navigation.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 117ms (Views: 111.6ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:03:28 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_navigation.html.erb (5.0ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 100ms (Views: 98.4ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/articles/27" for 192.168.23.1 at 2018-10-29 14:03:34 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"T5TFGwHwpi9+gUcwyqKFEUfArPHJVgNAq1eTLvrNavXHpOj32eZZL8Y3rvZFbSykw6OC5zRXCsI1N4GqP1kTAQ==", "id"=>"27"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.2ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 27]]
+  [1m[35m (3.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://192.168.23.136:3000/articles
+Completed 302 Found in 14ms (ActiveRecord: 6.3ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:03:34 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (3.8ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (8.2ms)
+  Rendered layouts/_navigation.html.erb (3.1ms) [cache miss]
+  Rendered layouts/_messages.html.erb (2.9ms) [cache miss]
+Completed 200 OK in 123ms (Views: 117.5ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:03:35 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (9.1ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 86ms (Views: 84.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:03:39 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 98ms (Views: 97.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:03:39 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_navigation.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 80ms (Views: 78.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:03:41 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (9.5ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (2.0ms) [cache miss]
+Completed 200 OK in 110ms (Views: 108.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:03:41 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 76ms (Views: 74.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:03:44 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 93ms (Views: 90.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:03:45 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (9.7ms)
+  Rendered layouts/_navigation.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 104ms (Views: 102.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:03:45 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (9.9ms)
+  Rendered layouts/_navigation.html.erb (1.3ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 105ms (Views: 101.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:03:46 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (6.8ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 81ms (Views: 80.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:03:49 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (6.6ms)
+  Rendered layouts/_navigation.html.erb (5.0ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 88ms (Views: 86.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:03:51 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (7.1ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 82ms (Views: 80.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:03:52 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (7.7ms)
+  Rendered layouts/_navigation.html.erb (4.1ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 103ms (Views: 101.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 14:03:54 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (8.4ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (12.1ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 87ms (Views: 85.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 192.168.23.1 at 2018-10-29 14:03:56 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"C0/bP/zsZTjX79uZJBnZkoUZOV9/PAQKtDK8P3DFBHIqeYwEDiRsD8uzVKkyRK5IGv3zjQpF00xzAywh8s5o3w==", "article"=>{"title"=>"56756", "text"=>"5675467"}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "56756"], ["text", "5675467"], ["created_at", "2018-10-29 21:03:56.798464"], ["updated_at", "2018-10-29 21:03:56.798464"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://192.168.23.136:3000/articles
+Completed 302 Found in 11ms (ActiveRecord: 3.5ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:03:56 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 67ms (Views: 66.0ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/articles/2" for 192.168.23.1 at 2018-10-29 14:04:01 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"zifbrYw0sjWDvBnFPMqEw7WcEm/wU03WiHoemT28uRhGF/ZBVCJNNTsK8AOzBS12Mf88eQ1SRFQWGgwd+CjA7A==", "id"=>"2"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 2]]
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://192.168.23.136:3000/articles
+Completed 302 Found in 11ms (ActiveRecord: 3.3ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:04:01 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (3.6ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 101ms (Views: 96.1ms | ActiveRecord: 3.6ms)
+
+
+Started DELETE "/articles/5" for 192.168.23.1 at 2018-10-29 14:04:04 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"fxeaTeeXWlPJ+V433WX6RdBK2PJueYfl8cFmmlu8HoX3J7ehP4GlU3FPt/FSqlPwVCn25JN4jmdvoXQenihncQ==", "id"=>"5"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (3.8ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 5]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://192.168.23.136:3000/articles
+Completed 302 Found in 15ms (ActiveRecord: 7.4ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:04:04 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (9.5ms)
+  Rendered layouts/_navigation.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 118ms (Views: 102.7ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/articles/22" for 192.168.23.1 at 2018-10-29 14:04:06 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"PJuHirO68Mcp/ZBa8qLtX9Rvcr37n2WA01N1YbJPGDu0q6pma6wPx5FLeZx9bUTqUAxcqwaebAJNM2fld9thzw==", "id"=>"22"}
+  [1m[36mArticle Load (4.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 22]]
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://192.168.23.136:3000/articles
+Completed 302 Found in 11ms (ActiveRecord: 8.1ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:04:06 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_navigation.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 91ms (Views: 89.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 14:04:09 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (8.9ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (9.8ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 83ms (Views: 80.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.23.1 at 2018-10-29 14:04:10 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (5.9ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 97ms (Views: 95.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 14:04:10 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (6.3ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (11.9ms)
+  Rendered layouts/_navigation.html.erb (2.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 96ms (Views: 94.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.23.1 at 2018-10-29 14:04:11 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 87ms (Views: 85.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 14:04:13 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (4.2ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (7.7ms)
+  Rendered layouts/_navigation.html.erb (9.2ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 91ms (Views: 90.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:04:16 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (12.4ms)
+  Rendered layouts/_navigation.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 118ms (Views: 116.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 14:04:17 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (6.4ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (7.9ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 89ms (Views: 87.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 192.168.23.1 at 2018-10-29 14:04:21 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"J7xscfSl9xp6cDPbs/FXwHGP44T/IgLm+ofrylvV2uQGijtKBm3+LWYsvOulrCAa7mspVopb1aA9tnvU2d62SQ==", "article"=>{"title"=>"asdfa", "text"=>"asdfasdf"}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "asdfa"], ["text", "asdfasdf"], ["created_at", "2018-10-29 21:04:21.027836"], ["updated_at", "2018-10-29 21:04:21.027836"]]
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://192.168.23.136:3000/articles
+Completed 302 Found in 11ms (ActiveRecord: 3.7ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:04:21 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 88ms (Views: 86.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:04:23 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 91ms (Views: 89.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 14:04:24 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.7ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (6.1ms)
+  Rendered layouts/_navigation.html.erb (4.0ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 115ms (Views: 113.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:04:26 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 92ms (Views: 90.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:04:27 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_navigation.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 86ms (Views: 85.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 14:04:28 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (6.2ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (7.4ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 111ms (Views: 110.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 14:05:44 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.1ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 97ms (Views: 95.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 14:06:09 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.7ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (7.6ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 92ms (Views: 90.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 14:06:11 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.4ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_navigation.html.erb (1.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 116ms (Views: 114.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 14:06:19 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (8.4ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (11.1ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 137ms (Views: 135.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 14:06:26 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.3ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (7.3ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 89ms (Views: 85.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 14:06:40 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (1.3ms)
+  Rendered articles/new.html.erb within layouts/application (6.5ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/work/rubyonrails/rails-bootstrap/app/views/articles/_form.html.erb:29: syntax error, unexpected '='
+@output_buffer.append=( class="btn-info" form.submit );@outp
+                              ^
+/work/rubyonrails/rails-bootstrap/app/views/articles/_form.html.erb:29: syntax error, unexpected tIDENTIFIER, expecting ')'
+append=( class="btn-info" form.submit );@output_buffer.safe_
+                              ^):
+  
+app/views/articles/_form.html.erb:29: syntax error, unexpected '='
+app/views/articles/_form.html.erb:29: syntax error, unexpected tIDENTIFIER, expecting ')'
+append=( class="btn-info" form.submit );@output_buffer.safe_
+app/views/articles/new.html.erb:3:in `_app_views_articles_new_html_erb__265475762093815200_70305060751760'
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 14:07:08 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (1.0ms)
+  Rendered articles/new.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/work/rubyonrails/rails-bootstrap/app/views/articles/_form.html.erb:28: syntax error, unexpected ')', expecting &. or :: or '[' or '.'
+it, class :"btn btn-primary" );@output_buffer.safe_append='
+                              ^
+/work/rubyonrails/rails-bootstrap/app/views/articles/_form.html.erb:31: syntax error, unexpected keyword_end, expecting ')'
+r.safe_append='  '.freeze; end ;
+                              ^
+/work/rubyonrails/rails-bootstrap/app/views/articles/_form.html.erb:33: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/work/rubyonrails/rails-bootstrap/app/views/articles/_form.html.erb:35: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/articles/_form.html.erb:28: syntax error, unexpected ')', expecting &. or :: or '[' or '.'
+app/views/articles/_form.html.erb:31: syntax error, unexpected keyword_end, expecting ')'
+app/views/articles/_form.html.erb:33: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/articles/_form.html.erb:35: syntax error, unexpected keyword_end, expecting ')'
+app/views/articles/new.html.erb:3:in `_app_views_articles_new_html_erb__265475762093815200_70305062844840'
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 14:07:10 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (0.7ms)
+  Rendered articles/new.html.erb within layouts/application (4.9ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/work/rubyonrails/rails-bootstrap/app/views/articles/_form.html.erb:28: syntax error, unexpected ')', expecting &. or :: or '[' or '.'
+it, class :"btn btn-primary" );@output_buffer.safe_append='
+                              ^
+/work/rubyonrails/rails-bootstrap/app/views/articles/_form.html.erb:31: syntax error, unexpected keyword_end, expecting ')'
+r.safe_append='  '.freeze; end ;
+                              ^
+/work/rubyonrails/rails-bootstrap/app/views/articles/_form.html.erb:33: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/work/rubyonrails/rails-bootstrap/app/views/articles/_form.html.erb:35: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/articles/_form.html.erb:28: syntax error, unexpected ')', expecting &. or :: or '[' or '.'
+app/views/articles/_form.html.erb:31: syntax error, unexpected keyword_end, expecting ')'
+app/views/articles/_form.html.erb:33: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/articles/_form.html.erb:35: syntax error, unexpected keyword_end, expecting ')'
+app/views/articles/new.html.erb:3:in `_app_views_articles_new_html_erb__265475762093815200_70305063690480'
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 14:07:35 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (1.1ms)
+  Rendered articles/new.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/work/rubyonrails/rails-bootstrap/app/views/articles/_form.html.erb:28: syntax error, unexpected tLABEL, expecting '='
+r.append=( form.submit, class:"btn btn-primary" );@output_bu
+                              ^):
+  
+app/views/articles/_form.html.erb:28: syntax error, unexpected tLABEL, expecting '='
+app/views/articles/new.html.erb:3:in `_app_views_articles_new_html_erb__265475762093815200_70305064515960'
+Started GET "/" for 192.168.23.1 at 2018-10-29 14:07:38 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 104ms (Views: 97.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 14:07:40 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (5.4ms)
+  Rendered articles/new.html.erb within layouts/application (7.3ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/work/rubyonrails/rails-bootstrap/app/views/articles/_form.html.erb:28: syntax error, unexpected tLABEL, expecting '='
+r.append=( form.submit, class:"btn btn-primary" );@output_bu
+                              ^):
+  
+app/views/articles/_form.html.erb:28: syntax error, unexpected tLABEL, expecting '='
+app/views/articles/new.html.erb:3:in `_app_views_articles_new_html_erb__265475762093815200_70305061882040'
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 14:08:11 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (5.5ms)
+  Rendered articles/new.html.erb within layouts/application (8.2ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/work/rubyonrails/rails-bootstrap/app/views/articles/_form.html.erb:28: syntax error, unexpected tLABEL_END, expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+append=( form.submit, 'class':"btn btn-primary" );@output_bu
+                              ^):
+  
+app/views/articles/_form.html.erb:28: syntax error, unexpected tLABEL_END, expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+append=( form.submit, 'class':"btn btn-primary" );@output_bu
+app/views/articles/new.html.erb:3:in `_app_views_articles_new_html_erb__265475762093815200_70305063627020'
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 14:08:32 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (8.8ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (12.9ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 91ms (Views: 90.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 192.168.23.1 at 2018-10-29 14:08:44 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pFIdGOYT2CaTiFkGSf4FOgcCtUs5ziyx9qMiW5ADF64sYjD0PgUnJis+sMDGMayPg2GbXcTPJTNowzDfVZduWg==", "article"=>{"title"=>"asdA", "text"=>"ASDasd"}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.4ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (7.7ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 101ms (Views: 92.8ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/articles" for 192.168.23.1 at 2018-10-29 14:08:48 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RgPSyL+jMFWuY7eiHhKQV+fOE0nsp7B35UwYTUjEQk7OM/8kZ7XPVRbVXmSR3TniY609XxGmufV7LArJjVA7ug==", "article"=>{"title"=>"asdAaSDasd", "text"=>"ASDasd"}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "articles" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "asdAaSDasd"], ["text", "ASDasd"], ["created_at", "2018-10-29 21:08:48.380047"], ["updated_at", "2018-10-29 21:08:48.380047"]]
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://192.168.23.136:3000/articles
+Completed 302 Found in 13ms (ActiveRecord: 3.9ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:08:48 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (4.8ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 103ms (Views: 101.4ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/articles" for 192.168.23.1 at 2018-10-29 14:09:04 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pFIdGOYT2CaTiFkGSf4FOgcCtUs5ziyx9qMiW5ADF64sYjD0PgUnJis+sMDGMayPg2GbXcTPJTNowzDfVZduWg==", "article"=>{"title"=>"asdA", "text"=>"ASDasd"}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (18.5ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (22.9ms)
+  Rendered layouts/_navigation.html.erb (3.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 106ms (Views: 100.3ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/articles" for 192.168.23.1 at 2018-10-29 14:09:07 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BGBefLqyqf1QS+Th0HaPcYfdkwOWEo1YhFgYGHegUiqMUHOQYqRW/ej9DSdfuSbEA769FWsThNoaOAqcsjQr3g==", "article"=>{"title"=>"asdAsafasdf", "text"=>"ASDasd"}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "articles" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "asdAsafasdf"], ["text", "ASDasd"], ["created_at", "2018-10-29 21:09:07.783951"], ["updated_at", "2018-10-29 21:09:07.783951"]]
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://192.168.23.136:3000/articles
+Completed 302 Found in 12ms (ActiveRecord: 5.0ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:09:07 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_navigation.html.erb (6.2ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 94ms (Views: 91.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:09:39 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/work/rubyonrails/rails-bootstrap/app/views/articles/index.html.erb:43: syntax error, unexpected tLABEL, expecting ')'
+t_article_path(article) class:"btn btn-success" );@output_bu
+                              ^):
+  
+app/views/articles/index.html.erb:43: syntax error, unexpected tLABEL, expecting ')'
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:09:49 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/work/rubyonrails/rails-bootstrap/app/views/articles/index.html.erb:43: syntax error, unexpected tSTRING_BEG, expecting ')'
+, edit_article_path(article) 'class':"btn btn-success" );@ou
+                              ^):
+  
+app/views/articles/index.html.erb:43: syntax error, unexpected tSTRING_BEG, expecting ')'
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:10:55 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/work/rubyonrails/rails-bootstrap/app/views/articles/index.html.erb:43: syntax error, unexpected ':', expecting ')'
+pend=( link_to 'Edit' 'class':"btn btn-success", edit_articl
+                              ^
+/work/rubyonrails/rails-bootstrap/app/views/articles/index.html.erb:43: syntax error, unexpected ',', expecting ')'
+it' 'class':"btn btn-success", edit_article_path(article) );
+                              ^):
+  
+app/views/articles/index.html.erb:43: syntax error, unexpected ':', expecting ')'
+app/views/articles/index.html.erb:43: syntax error, unexpected ',', expecting ')'
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:10:57 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/work/rubyonrails/rails-bootstrap/app/views/articles/index.html.erb:43: syntax error, unexpected ':', expecting ')'
+pend=( link_to 'Edit' 'class':"btn btn-success", edit_articl
+                              ^
+/work/rubyonrails/rails-bootstrap/app/views/articles/index.html.erb:43: syntax error, unexpected ',', expecting ')'
+it' 'class':"btn btn-success", edit_article_path(article) );
+                              ^):
+  
+app/views/articles/index.html.erb:43: syntax error, unexpected ':', expecting ')'
+app/views/articles/index.html.erb:43: syntax error, unexpected ',', expecting ')'
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:11:09 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/work/rubyonrails/rails-bootstrap/app/views/articles/index.html.erb:43: syntax error, unexpected ')', expecting =>
+, edit_article_path(article) );@output_buffer.safe_append='<
+                              ^
+/work/rubyonrails/rails-bootstrap/app/views/articles/index.html.erb:48: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;         end 
+                     ^
+/work/rubyonrails/rails-bootstrap/app/views/articles/index.html.erb:55: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/work/rubyonrails/rails-bootstrap/app/views/articles/index.html.erb:57: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/articles/index.html.erb:43: syntax error, unexpected ')', expecting =>
+app/views/articles/index.html.erb:48: syntax error, unexpected keyword_end, expecting ')'
+app/views/articles/index.html.erb:55: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/articles/index.html.erb:57: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:11:20 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/work/rubyonrails/rails-bootstrap/app/views/articles/index.html.erb:43: syntax error, unexpected ')', expecting =>
+, edit_article_path(article) );@output_buffer.safe_append='<
+                              ^
+/work/rubyonrails/rails-bootstrap/app/views/articles/index.html.erb:48: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;         end 
+                     ^
+/work/rubyonrails/rails-bootstrap/app/views/articles/index.html.erb:55: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/work/rubyonrails/rails-bootstrap/app/views/articles/index.html.erb:57: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/articles/index.html.erb:43: syntax error, unexpected ')', expecting =>
+app/views/articles/index.html.erb:48: syntax error, unexpected keyword_end, expecting ')'
+app/views/articles/index.html.erb:55: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/articles/index.html.erb:57: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:11:44 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/work/rubyonrails/rails-bootstrap/app/views/articles/index.html.erb:43: syntax error, unexpected ':', expecting ')'
+pend=( link_to 'Edit' 'class':"btn btn-primary" , edit_artic
+                              ^
+/work/rubyonrails/rails-bootstrap/app/views/articles/index.html.erb:43: syntax error, unexpected ',', expecting ')'
+t' 'class':"btn btn-primary" , edit_article_path(article) );
+                              ^):
+  
+app/views/articles/index.html.erb:43: syntax error, unexpected ':', expecting ')'
+app/views/articles/index.html.erb:43: syntax error, unexpected ',', expecting ')'
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:11:45 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (14.8ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/work/rubyonrails/rails-bootstrap/app/views/articles/index.html.erb:43: syntax error, unexpected ':', expecting ')'
+pend=( link_to 'Edit' 'class':"btn btn-primary" , edit_artic
+                              ^
+/work/rubyonrails/rails-bootstrap/app/views/articles/index.html.erb:43: syntax error, unexpected ',', expecting ')'
+t' 'class':"btn btn-primary" , edit_article_path(article) );
+                              ^):
+  
+app/views/articles/index.html.erb:43: syntax error, unexpected ':', expecting ')'
+app/views/articles/index.html.erb:43: syntax error, unexpected ',', expecting ')'
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:12:17 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_navigation.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 129ms (Views: 127.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/29/edit" for 192.168.23.1 at 2018-10-29 14:12:37 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.0ms) [cache miss]
+  Rendered articles/edit.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 104ms (Views: 98.9ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/articles/29" for 192.168.23.1 at 2018-10-29 14:12:40 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IOWbUZElDc5JAxQaZBdj5MEmYMqcDPsB1eqByyGhJDRUbxZ0pV0X4aUimTA2cQoV5FoRsPLMFQPIhqmkVP/qhg==", "article"=>{"title"=>"56756qwerq", "text"=>"5675467wqer"}, "commit"=>"Update Article", "id"=>"29"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "articles" SET "title" = ?, "text" = ?, "updated_at" = ? WHERE "articles"."id" = ?[0m  [["title", "56756qwerq"], ["text", "5675467wqer"], ["updated_at", "2018-10-29 21:12:40.891864"], ["id", 29]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://192.168.23.136:3000/articles
+Completed 302 Found in 15ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:12:40 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 94ms (Views: 93.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 192.168.23.1 at 2018-10-29 14:12:43 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.5ms) [cache miss]
+Completed 200 OK in 103ms (Views: 101.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 14:12:44 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.1ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (7.8ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 104ms (Views: 101.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:12:44 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 92ms (Views: 91.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 14:12:47 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (7.1ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (8.9ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 99ms (Views: 97.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:12:48 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (7.9ms)
+  Rendered layouts/_navigation.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 107ms (Views: 106.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 192.168.23.1 at 2018-10-29 14:12:49 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (2.7ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 79ms (Views: 78.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:12:50 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 94ms (Views: 91.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:12:54 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_navigation.html.erb (3.2ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 109ms (Views: 107.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:12:55 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (7.9ms)
+  Rendered layouts/_navigation.html.erb (3.0ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 111ms (Views: 109.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:12:55 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (5.9ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 88ms (Views: 86.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:12:56 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (7.5ms)
+  Rendered layouts/_navigation.html.erb (5.1ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 91ms (Views: 89.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:12:56 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (11.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (14.2ms)
+  Rendered layouts/_navigation.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 106ms (Views: 94.3ms | ActiveRecord: 11.3ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:12:57 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (13.4ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 85ms (Views: 84.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 192.168.23.1 at 2018-10-29 14:12:57 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 5]]
+  Rendered articles/index.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_navigation.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_messages.html.erb (1.9ms) [cache miss]
+Completed 200 OK in 94ms (Views: 92.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 192.168.23.1 at 2018-10-29 14:13:49 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (4.5ms)
+Started GET "/" for 192.168.23.1 at 2018-10-29 14:13:53 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (32.8ms) [cache miss]
+  Rendered layouts/_messages.html.erb (7.0ms) [cache miss]
+Completed 200 OK in 10563ms (Views: 10551.1ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_navigation.html.erb (1.4ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 6788ms (Views: 6786.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 192.168.23.1 at 2018-10-29 14:14:02 -0700
+Cannot render console from 192.168.23.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (342.7ms) [cache miss]
+  Rendered articles/new.html.erb within layouts/application (348.1ms)
+  Rendered layouts/_navigation.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_messages.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 472ms (Views: 457.5ms | ActiveRecord: 4.8ms)
+
+
